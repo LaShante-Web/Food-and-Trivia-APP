@@ -1,0 +1,31 @@
+/* div {
+  	/* display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 30%; */
+  /* float: left;
+  width: 33.33%;
+  align-items: center;
+} */ */
+    
+    
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6 { 
+  
+ flex-direction: column;
+ flex-wrap: wrap;
+ 
+
+}
+
+
+.column-6 {
+  flex-basis: 25%;
+}

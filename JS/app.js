@@ -17,12 +17,18 @@ function fetchRandom(limitLicense) {
 
 
 function buildCard(limitLicense) {
-    let recipes = document.querySelector('#name')
+    let recipes = document.querySelector('#trivia')
     let img = document.querySelector('#food-img')
 
     recipes.textContent = `${limitLicense.text}`
     // img.src = limitLicense.number
 }
+
+
+
+
+
+
 
 
 
